@@ -6,6 +6,11 @@ A media player for the Nintendo Wii.
 
 - [devkitPro](https://devkitpro.org/) with devkitPPC installed
 - `DEVKITPPC` environment variable set to your devkitPPC installation path
+- Required libraries:
+
+  ```sh
+  dkp-pacman -S wii-dev ppc-sdl2 ppc-sdl2_ttf ppc-sdl2_mixer
+  ```
 
 ## Building
 
